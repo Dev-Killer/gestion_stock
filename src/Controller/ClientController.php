@@ -13,7 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
 /**
  * @Route("/client")
  */
-class ClientController extends AbstractController
+class ClientController extends AbstractController  
 {
     /**
      * @Route("/", name="client_index", methods={"GET"})
